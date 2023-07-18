@@ -46,14 +46,12 @@
 }
 .main-text {
     display: flex;
-    border: solid red;
     width: 50%;
 }
 
 .container-photo {
 
     display: flex;
-    border: solid blue;
     width: 50%;
 }
 
@@ -90,9 +88,25 @@
 
 .button {
     background-color: #3882f6;
+    font-weight: bold;
     color: white;
-    border-radius: 20px;
+    border-radius:5px;
     outline-style: none;
     border-style: none;
-    margin-top
+    width: 90px;
+    height: 30px;
 }
+
+.container-photo {
+    display: flex;
+    align-items: center;
+}
+.photo-main {
+    
+    height: 80%;
+    margin-left: 110px;
+   
+
+}
+    
+    
