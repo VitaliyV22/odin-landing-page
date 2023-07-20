@@ -76,8 +76,7 @@
     font-family: Archivo;
     font-weight: bolder;
     color: white;
-    font-family: 
-    width: 300px;
+    width: 500px;
 }
 
 .sub-heading {
@@ -95,6 +94,7 @@
     border-style: none;
     width: 90px;
     height: 30px;
+    cursor: pointer;
 }
 
 .container-photo {
@@ -218,12 +218,9 @@
     display: flex;
     font-size: 34px;
     font-style: italic;
-    margin-left: 150px;
-    margin-right: 150px;
-    
-    
-
-    
+    margin-left: 200px;
+    margin-right: 200px;
+ 
 }
 .tst-name {
     display: flex;
@@ -233,10 +230,68 @@
     margin-left: 600px;
     font-size: 30px;
     font-weight: bold;
+   
+}
+.container-outer5 {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    height: 150px;
+    background-color: #3882f6;
+    border-radius: 15px;
+}
+
+.container-3 button { 
+    display: flex;
+    margin-left: 500px;
     
     
     
+}
+
+.button2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #3882f6;
+    color: white;
+    font-size: 20px;
+    border-radius:5px;
+    border: white solid 2px;
+    font-weight: bold;
+    height: 27px;
+    width:  150px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bottom-text {
     
+    width: 50%;
+   
+
+}
+
+.bottom-text h2{
+    margin-bottom: -10px;
+    color: white;
+    font-weight: bold;
     
+}
+.bottom-text p {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
     
 }
